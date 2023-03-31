@@ -11,3 +11,9 @@ sample_hash = {
       }
    }
 }
+
+class_array = sample_hash[:class]
+student_array = class_array[:student]
+marks = student_array["marks"]
+
+p marks["history"]
